@@ -225,9 +225,9 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 26.799988}
-      m_SelectedIDs: 7c730000
-      m_LastClickedID: 29564
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: d0e1fbff
+      m_LastClickedID: -269872
       m_ExpandedIDs: 28e2fbff6823fdffb468feff16fbffff7c730000a0760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -538,9 +538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 125.211075, y: 27.53403, z: 134.99356}
+    m_Target: {x: 121.921295, y: 22.648994, z: 129.64957}
     speed: 2
-    m_Value: {x: 125.211075, y: 27.53403, z: 134.99356}
+    m_Value: {x: 121.921295, y: 22.648994, z: 129.64957}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,13 +587,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.03451808, y: -0.9502822, z: -0.11400583, w: 0.28773037}
+    m_Target: {x: 0.123302445, y: -0.7385457, z: 0.1405829, w: 0.64776564}
     speed: 2
-    m_Value: {x: -0.034517843, y: -0.95027566, z: -0.11400504, w: 0.28772837}
+    m_Value: {x: 0.12330139, y: -0.7385394, z: 0.1405817, w: 0.6477601}
   m_Size:
-    m_Target: 7.3992825
+    m_Target: 14.882496
     speed: 2
-    m_Value: 7.3992825
+    m_Value: 14.882496
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -730,7 +730,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000787a00007a7a00007c7a00007e7a0000807a0000827a0000
+    m_ExpandedIDs: 00000000787a00007e7a0000807a0000827a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -834,8 +834,8 @@ MonoBehaviour:
     y: 0
     width: 433.59998
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
