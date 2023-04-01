@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -7,6 +8,8 @@ public class DialogManager : MonoBehaviour
 {
     public Queue<string> kalimatDialog;
     public TextMeshProUGUI textNama, textKalimat;
+
+    public CinemachineFreeLook cinemachineFreeLook;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,7 @@ public class DialogManager : MonoBehaviour
         {
             DialogSelesai();
             return;
+
         }
 
         string kalimat = kalimatDialog.Dequeue();
@@ -43,5 +47,7 @@ public class DialogManager : MonoBehaviour
     {
         print("Selesai");
         FindObjectOfType<NPCController>().dialogBox.gameObject.SetActive(false);
+        cinemachineFreeLook.m_YAxis.m_InputAxisName = "Mouse Y";
+        cinemachineFreeLook.m_XAxis.m_InputAxisName = "Mouse X";
     }
 }

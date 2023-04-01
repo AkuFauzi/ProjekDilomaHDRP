@@ -52,17 +52,7 @@ public class DayCycle : MonoBehaviour
         if (waktu >= 18)
         {
 
-            bulan.SetActive(true);
             localVolumetricFog.gameObject.SetActive(true);
-        }
-        else if (waktu >= 5)
-        {
-            matahari.gameObject.SetActive(true);
-            bulan.SetActive(false);
-        }
-        else if (waktu >= 19)
-        {
-            matahari.gameObject.SetActive(false);
         }
     }
 

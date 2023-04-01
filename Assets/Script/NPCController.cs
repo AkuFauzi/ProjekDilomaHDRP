@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class NPCController : MonoBehaviour
     public int idNPC;
     public GameObject buttonInteract;
     public GameObject dialogBox;
+    public CinemachineFreeLook cinemachineFreeLook;
 
 
 
@@ -25,6 +27,8 @@ public class NPCController : MonoBehaviour
             FindObjectOfType<DialogManager>().MulaiDialog(dialog);
             dialogBox.SetActive(true);
             buttonInteract.SetActive(false);
+            cinemachineFreeLook.m_YAxis.m_InputAxisName = "";
+            cinemachineFreeLook.m_XAxis.m_InputAxisName = "";
         }
     }
     private void OnTriggerExit(Collider other)
