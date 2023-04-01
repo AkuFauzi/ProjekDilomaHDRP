@@ -193,7 +193,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   depthExtent:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 64
   denoisingMode:
     m_OverrideState: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9e4ed5a6f56fb4ebd693e39684f36f, type: 3}
   m_Name: VolumetricClouds
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enable:
     m_OverrideState: 1
     m_Value: 1
@@ -242,7 +242,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   earthCurvature:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.5
   cloudTiling:
     m_OverrideState: 0
@@ -281,8 +281,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 0
   cloudPreset:
-    m_OverrideState: 1
-    m_Value: 4
+    m_OverrideState: 0
+    m_Value: 0
   cumulusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.1
   shapeOffset:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {x: 0, y: 0, z: 0}
   erosionFactor:
     m_OverrideState: 0
