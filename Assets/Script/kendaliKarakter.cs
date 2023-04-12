@@ -26,6 +26,8 @@ public class kendaliKarakter : MonoBehaviour
     public GameObject Gamelan;
     public CinemachineFreeLook cinemachineFreeLook;
 
+    public GameObject option;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,6 +44,7 @@ public class kendaliKarakter : MonoBehaviour
     {
         PlayGamelan();
         movement();
+        Pause();
     }
 
     private void OnFootstep(AnimationEvent animationEvent)
@@ -119,6 +122,30 @@ public class kendaliKarakter : MonoBehaviour
             cinemachineFreeLook.m_YAxis.m_InputAxisName = "Mouse Y";
             cinemachineFreeLook.m_XAxis.m_InputAxisName = "Mouse X";
         }
+    }
+
+    //Pause=========================================================================================================
+    public bool pause;
+    void Pause()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && !pause)
+        {
+            pause = true;
+            option.SetActive(true);
+            Time.timeScale = 0;
+        }
+        else if(Input.GetKeyDown(KeyCode.Escape)&& pause)
+        {
+            pause = false;
+            option.SetActive(false);
+            Time.timeScale = 1;
+        }
+    }
+    public void Unpause()
+    {
+        option.SetActive(false);
+        Time.timeScale = 1;
+        pause = false;
     }
 
 }

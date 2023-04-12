@@ -2,11 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.Rendering.HighDefinition;
 
 public class DayCycle : MonoBehaviour
 {
     public Light matahari;
+    public LocalVolumetricFog fog;
+
+    [Range(0, 90)]
+    public float tinggiKabut;
 
     [Range(0, 24)]
     public float waktu;
@@ -27,7 +32,7 @@ public class DayCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        kabut();
         UpdateHari();
     }
 
@@ -58,6 +63,6 @@ public class DayCycle : MonoBehaviour
 
     private void kabut()
     {
-        //localVolumetricFog.
+
     }
 }

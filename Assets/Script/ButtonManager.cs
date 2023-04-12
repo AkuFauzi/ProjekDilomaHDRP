@@ -38,6 +38,8 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
+
+
     public void Play(string namaScene)
     {
         SceneManager.LoadScene(namaScene);
