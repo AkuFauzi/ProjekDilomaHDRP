@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class NPCController : MonoBehaviour
 {
+    public static NPCController Instance;
+
     public Dialog dialog;
     public int idNPC;
     public GameObject buttonInteract;
@@ -35,5 +37,6 @@ public class NPCController : MonoBehaviour
     {
         buttonInteract.SetActive(false);
     }
+
 
 }
