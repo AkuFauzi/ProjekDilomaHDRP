@@ -5,26 +5,33 @@ using UnityEngine;
 
 public class TextPopUp : MonoBehaviour
 {
+    public Camera kamera;
     public NPCController npc;
-    public TextMeshProUGUI textPopup;
+    public TextMeshPro textPopup;
     public GameObject popup;
 
     public string[] kalimatPopup;
     // Start is called before the first frame update
     void Start()
     {
-        
+        kamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.localEulerAngles = kamera.transform.localEulerAngles;
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         Popup();
+        //PosisiText();
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        popup.SetActive(false);
     }
 
     void Popup()
@@ -36,10 +43,12 @@ public class TextPopUp : MonoBehaviour
         }
         else if(npc.idNPC == 2)
         {
+            popup.SetActive(true);
             textPopup.text = kalimatPopup[2];
         }
         else if (npc.idNPC == 3)
         {
+            popup.SetActive(true);
             textPopup.text = kalimatPopup[3];
         }
     }

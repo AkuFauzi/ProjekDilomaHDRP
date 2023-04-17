@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 297.45312, g: 206.81543, b: 151.84888, a: 1}
+  m_IndirectSpecularColor: {r: 296.66968, g: 206.61292, b: 151.89746, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11294,7 +11294,12 @@ PrefabInstance:
     - target: {fileID: 3956680387151718820, guid: a9003a2c11859c340a8beee7ca8cd319,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.09
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956680387151718820, guid: a9003a2c11859c340a8beee7ca8cd319,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4081879402325787964, guid: a9003a2c11859c340a8beee7ca8cd319,
         type: 3}
@@ -17932,7 +17937,7 @@ GameObject:
   - component: {fileID: 7731951875105879800}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18803,7 +18808,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7731951875743461432}
-  m_LocalRotation: {x: 0.06213745, y: -0.000000017173132, z: 0.0000000010691605, w: 0.9980676}
+  m_LocalRotation: {x: 0.062137432, y: 0.000000017173132, z: -0.0000000010691601,
+    w: 0.9980676}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -19130,6 +19136,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 406951820}
     m_Modifications:
+    - target: {fileID: 3367722762372598518, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842720007697960491, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 7731951875105879792}
+    - target: {fileID: 7842720007697960491, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: kamera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842720007697960491, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: kalimatPopup.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7842720007697960491, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: kalimatPopup.Array.data[2]
+      value: Aduh ada wibu
+      objectReference: {fileID: 0}
     - target: {fileID: 8298294352327382404, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
         type: 3}
       propertyPath: m_RootOrder
@@ -19189,6 +19220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298294352327382408, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
+        type: 3}
+      propertyPath: idNPC
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8298294352327382408, guid: 50da1a8c99bfa8b48a8232b20ad8d985,
         type: 3}
