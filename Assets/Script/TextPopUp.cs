@@ -20,7 +20,7 @@ public class TextPopUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.localEulerAngles = kamera.transform.localEulerAngles;
+        transform.rotation = kamera.transform.rotation;
     }
 
     private void OnTriggerEnter(Collider other)
