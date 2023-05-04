@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 296.84448, g: 206.54285, b: 151.76001, a: 1}
+  m_IndirectSpecularColor: {r: 909.3445, g: 427.56348, b: 155.70471, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1699,7 +1699,7 @@ MonoBehaviour:
   m_IsGlobal: 1
   priority: 0
   blendDistance: 0
-  weight: 1
+  weight: 0.5
   sharedProfile: {fileID: 11400000, guid: 8687fb84573031b429b368e6d8f9e61d, type: 2}
 --- !u!4 &432432461
 Transform:
@@ -2499,7 +2499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
     albedo: {r: 1, g: 1, b: 1, a: 1}
-    meanFreePath: 150
+    meanFreePath: 75
     anisotropy: 0
     volumeMask: {fileID: 0}
     textureScrollingSpeed: {x: 0, y: 0, z: 0}
@@ -10009,12 +10009,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   matahari: {fileID: 157207113}
   fog: {fileID: 741649550}
-  tinggiKabut: 0
+  tinggiKabut: 16.1
   waktu: 0
   startJam: 6
-  kelipatanWaktu: 1
+  kelipatanWaktu: 0.5
+  kecKabut: 1
   localVolumetricFog: {fileID: 741649549}
   bulan: {fileID: 1864540552}
+  tebalFog: {fileID: 741649550}
 --- !u!4 &1706322455
 Transform:
   m_ObjectHideFlags: 0
@@ -16309,7 +16311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2801903800662591546}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.6, y: 0.3, z: 68.46}
+  m_LocalPosition: {x: 119.6, y: 17.95, z: 150.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16493,7 +16495,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7731951873931321900}
-  m_LocalRotation: {x: 0.04397282, y: -1e-45, z: -0, w: 0.99903274}
+  m_LocalRotation: {x: 0.04397282, y: -0, z: -0, w: 0.99903274}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -17239,7 +17241,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7731951874266473880}
-  m_LocalRotation: {x: 0.025841674, y: 1e-45, z: -0, w: 0.99966604}
+  m_LocalRotation: {x: 0.025841676, y: -0.0000000010750397, z: 2.779011e-11, w: 0.99966604}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

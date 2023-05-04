@@ -243,7 +243,7 @@ MonoBehaviour:
     m_Value: 0
   earthCurvature:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   cloudTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -255,7 +255,7 @@ MonoBehaviour:
     m_Value: 1000
   cloudThickness:
     m_OverrideState: 0
-    m_Value: 8000
+    m_Value: 1000
   fadeInMode:
     m_OverrideState: 1
     m_Value: 0
@@ -278,11 +278,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   cloudControl:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   cloudPreset:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 4
   cumulusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -419,8 +419,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0
-        value: 0
+        time: 0.5999985
+        value: 0.6220398
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -449,11 +449,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.5
   densityMultiplier:
-    m_OverrideState: 0
-    m_Value: 0.291
-  shapeFactor:
     m_OverrideState: 1
-    m_Value: 0.833
+    m_Value: 0.1
+  shapeFactor:
+    m_OverrideState: 0
+    m_Value: 0.632
   shapeScale:
     m_OverrideState: 0
     m_Value: 0.1
@@ -461,8 +461,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0, y: 0, z: 0}
   erosionFactor:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0.51
   erosionScale:
     m_OverrideState: 0
     m_Value: 50
@@ -470,8 +470,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   ambientLightProbeDimmer:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 0
   sunLightDimmer:
     m_OverrideState: 0
     m_Value: 1
@@ -587,9 +587,9 @@ MonoBehaviour:
     m_Value: 4
   cloudType:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0
   skyAmbientMode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   windOrientation:
     m_OverrideState: 0

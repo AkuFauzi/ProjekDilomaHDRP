@@ -1108,7 +1108,18 @@ ModelImporter:
     rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Spine2' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Head' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'tail_of_eye_Left'
+      has translation animation that will be discarded.\n\t'eyerid2_Right' has translation
+      animation that will be discarded.\n\t'LeftArmRoll' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'LeftForeArmRoll' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RightArmRoll'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'RightForeArm'
+      has translation animation that will be discarded.\n\t'RightForeArmRoll' is
+      inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -1232,7 +1243,8 @@ ModelImporter:
     - name: LeftToes
       parentName: LeftFoot
       position: {x: 0.000000040169635, y: -0.08800631, z: 0.105929896}
-      rotation: {x: -0.000000008411681, y: 0.0000004485066, z: -0.0000000025998612, w: 1}
+      rotation: {x: -0.000000008411681, y: 0.0000004485066, z: -0.0000000025998612,
+        w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: LeftToesNull
       parentName: LeftToes
@@ -1642,7 +1654,8 @@ ModelImporter:
     - name: LeftHandIndex3
       parentName: LeftHandIndex2
       position: {x: -0.019158585, y: 0.0004431095, z: 0.0003170767}
-      rotation: {x: 0.00000012503298, y: -0.000000007573925, z: 0.00000016130416, w: 1}
+      rotation: {x: 0.00000012503298, y: -0.000000007573925, z: 0.00000016130416,
+        w: 1}
       scale: {x: 1.000005, y: 1.000005, z: 1.0000052}
     - name: LeftHandIndexNull
       parentName: LeftHandIndex3
@@ -1662,7 +1675,8 @@ ModelImporter:
     - name: LeftHandMiddle3
       parentName: LeftHandMiddle2
       position: {x: -0.02122282, y: 0.0008008472, z: -0.00008344638}
-      rotation: {x: 0.000000118654945, y: -0.00000009285711, z: -0.0000010071906, w: 1}
+      rotation: {x: 0.000000118654945, y: -0.00000009285711, z: -0.0000010071906,
+        w: 1}
       scale: {x: 1.0000051, y: 1.000005, z: 1.0000052}
     - name: LeftHandMiddleNull
       parentName: LeftHandMiddle3
@@ -1682,7 +1696,8 @@ ModelImporter:
     - name: LeftHandRing3
       parentName: LeftHandRing2
       position: {x: -0.020068169, y: 0.00024002478, z: -0.0005232442}
-      rotation: {x: 0.00000003528417, y: 0.000000026118625, z: -0.00000029653302, w: 1}
+      rotation: {x: 0.00000003528417, y: 0.000000026118625, z: -0.00000029653302,
+        w: 1}
       scale: {x: 1.000005, y: 1.0000051, z: 1.0000048}
     - name: LeftHandRingNull
       parentName: LeftHandRing3
@@ -1702,7 +1717,8 @@ ModelImporter:
     - name: LeftHandPinky3
       parentName: LeftHandPinky2
       position: {x: -0.015730254, y: 0.00042702293, z: -0.0013900028}
-      rotation: {x: 0.0000000146148125, y: 0.000000021269981, z: 0.0000006361135, w: 1}
+      rotation: {x: 0.0000000146148125, y: 0.000000021269981, z: 0.0000006361135,
+        w: 1}
       scale: {x: 1.0000051, y: 1.0000049, z: 1.000005}
     - name: LeftHandPinkyNull
       parentName: LeftHandPinky3
@@ -1782,7 +1798,8 @@ ModelImporter:
     - name: RightHandIndex3
       parentName: RightHandIndex2
       position: {x: 0.019158116, y: 0.00043624057, z: 0.00031706737}
-      rotation: {x: -0.0000005880338, y: -0.00000048134996, z: -0.00000077260324, w: 1}
+      rotation: {x: -0.0000005880338, y: -0.00000048134996, z: -0.00000077260324,
+        w: 1}
       scale: {x: 1.0000008, y: 1.0000012, z: 1.0000013}
     - name: RightHandIndexNull
       parentName: RightHandIndex3
