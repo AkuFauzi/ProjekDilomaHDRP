@@ -23,19 +23,27 @@ public class NPCController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        buttonInteract.SetActive(true);
-        if (Input.GetKeyDown(KeyCode.E))
+        if(other.gameObject.tag == "Player")
         {
-            FindObjectOfType<DialogManager>().MulaiDialog(dialog);
-            dialogBox.SetActive(true);
-            buttonInteract.SetActive(false);
-            cinemachineFreeLook.m_YAxis.m_InputAxisName = "";
-            cinemachineFreeLook.m_XAxis.m_InputAxisName = "";
+            buttonInteract.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                FindObjectOfType<DialogManager>().MulaiDialog(dialog);
+                dialogBox.SetActive(true);
+                buttonInteract.SetActive(false);
+                cinemachineFreeLook.m_YAxis.m_InputAxisName = "";
+                cinemachineFreeLook.m_XAxis.m_InputAxisName = "";
+            }
         }
+      
     }
     private void OnTriggerExit(Collider other)
     {
-        buttonInteract.SetActive(false);
+        if(other.gameObject.tag == "Player")
+        {
+            buttonInteract.SetActive(false);
+        }
+        
     }
 
 

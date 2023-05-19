@@ -25,13 +25,21 @@ public class TextPopUp : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Popup();
-        //PosisiText();
+        if(other.gameObject.tag == "Player")
+        {
+            Popup();
+            //PosisiText();
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
     {
-        popup.SetActive(false);
+        if(other.gameObject.tag == "Player")
+        {
+            popup.SetActive(false);
+        }
+        
     }
 
     void Popup()
